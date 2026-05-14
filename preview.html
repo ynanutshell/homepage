@@ -1,0 +1,56 @@
+<!--
+
+Please **do not** rename or delete this file.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a window</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            font-size: clamp(8px, 10vw, 14px);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            background-image: url(window-1.gif);
+            background-size: cover;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a[target="_parent"] {
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        a[target="_parent"]:hover {
+            font-style: italic;
+        }
+    </style>
+
+</head>
+<body>
+    <a href="/other-ysa/index.html" target="_parent">
+        a window
+    </a>
+</body>
+</html>
